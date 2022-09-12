@@ -1,4 +1,4 @@
-# historiadosgames
+# historia dos games
 projeto de html, css basico.
 
 Olá, Pessoal! Primeiramente queria agradecer a sua visita aqui neste site, criei este projeto para testar meus conhecimento na area de programação,
