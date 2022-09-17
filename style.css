@@ -7,6 +7,34 @@
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
+nav{
+    position: fixed;
+    z-index: 60;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(36,36,36,1) 35%, rgba(95,95,95,1) 100%);
+}
+nav ul{
+    list-style: none;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul li{
+    padding:5px 15px;
+}
+nav ul a{
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 3px solid transparent;
+    transition: all 0.25s ease-in-out;
+    
+}
+nav ul a:hover{
+    color: #fff;
+    border-bottom: 3px solid white;
+}
 h1,h2{
     font-weight: 900;
     color: #000;
@@ -31,9 +59,9 @@ section.module p{
 section.module:last-child{
     margin-bottom: 0;
 }
-section.module h2{
+section.module h2{ 
     margin-bottom: 40px;
-    font-size: 30px;
+    font-size: 30px; 
 }
 section.module.content{
     padding: 40px 0;
