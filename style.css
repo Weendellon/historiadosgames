@@ -1,4 +1,5 @@
 *{
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -90,19 +91,19 @@ section.module.parallax::after{
 }
 /*background titulo principal*/
 section.module.parallax-1{
-    background-image: url(src/pexels-mikechie-esparagoza-1601774.jpg);
+    background-image: url(https://images.unsplash.com/photo-1553640627-57a6de3bf0ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1933&q=80);
 }
 /*background  nintendo*/
 section.module.parallax-2{
-    background-image: url(src/nintendo.jpg);
+    background-image: url(https://images.pexels.com/photos/776092/pexels-photo-776092.jpeg);
 }
 /*background  playstation*/
 section.module.parallax-3{
-    background-image: url(src/plastation.jpg);
+    background-image: url(https://images.pexels.com/photos/4219884/pexels-photo-4219884.jpeg);
 }
 /*background  xbox*/
 section.module.parallax-4{
-    background-image: url(src/xbox.jpg);
+    background-image: url(https://images.pexels.com/photos/139038/pexels-photo-139038.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
 section.module.parallax h1{
     color: #fff;
@@ -125,4 +126,7 @@ footer{
 footer p,a{
     color: #fff;
     text-decoration: none;
+}
+footer a:hover{
+    border-bottom: solid 1px #fff;
 }
